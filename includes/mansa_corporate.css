@@ -1,0 +1,256 @@
+@charset "ISO-8859-1";
+
+/*
+------------------------------------------------------------------------------------
+   GENERAL
+------------------------------------------------------------------------------------
+*/
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}table{border-collapse:separate;border-spacing:0;}caption,th,td{text-align:left;font-weight:400;}table,td,th{vertical-align:middle;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}a img{border:none;}
+
+html {min-height:100%;}
+body {font-size:11px; font-family:"Arial",sans-serif; width:100%; min-height:100% !important; height:100%; background-color:#031E35;}
+a {text-decoration:none;color:#fff;}
+a:hover {text-decoration:underline;color:#FF9600;}
+.clear {clear: both; display: block; height: 0; overflow: hidden; visibility: hidden; width: 0; font-size:0px; line-height:0px;}
+
+p {
+margin:0px auto;
+font:normal 12px Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+line-height:18px;
+padding:5px 0 10px 0;
+}
+
+h1 {
+font:bold 21px 'Myriad Pro Light', Verdana, Arial, Helvetica, sans-serif;
+color:#0D89F0;
+text-transform:uppercase;
+margin-bottom:15px;
+border-bottom:solid 1px #0D89F0;
+width:100%;
+}
+
+h2 {
+font:bold 14px Georgia, Times New Roman, Times, serif;
+color:#0D89F0;
+margin:10px 0 6px 0;
+}
+
+.main ul {
+	float:left;
+	margin-left:20px;
+	padding-bottom:0;
+}
+
+.main ul li {
+font:normal 12px Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+line-height:18px;
+padding:0 0 10px 0;}
+
+/*
+@font-face {
+	font-family: 'TrajanProBold';
+	src: url('font-face/trajanpro-bold-webfont.eot');
+	src: local('?'), url('font-face/trajanpro-bold-webfont.woff') format('woff'), url('font-face/trajanpro-bold-webfont.ttf') format('truetype'), url('font-face/trajanpro-bold-webfont.svg#webfont5XInaHtq') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINOTMedium';
+	src: url('font-face/dinot-medium-webfont.eot');
+	src: local('?'), url('font-face/dinot-medium-webfont.woff') format('woff'), url('font-face/dinot-medium-webfont.ttf') format('truetype'), url('font-face/dinot-medium-webfont.svg#webfontV6D7g4IX') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+
+/*
+------------------------------------------------------------------------------------
+   Navigation
+------------------------------------------------------------------------------------
+*/
+
+#nav-container{
+width:245px;
+height:480px;
+position:absolute; 
+top:70px;
+left:131px;
+z-index:1280;
+background:url(../images/nav_bg.png) repeat-y;
+}
+
+.nav{
+width:240px;
+margin:0px auto;
+float:left;
+}
+
+.nav ul {
+	float:left;
+	margin-left:27px;
+	padding:0px;
+}
+.nav ul li {
+	font:bold 18px Times New Roman, Times, serif;
+	line-height:38px;
+	list-style:none;
+}
+
+.nav ul li a {
+	text-decoration:none;
+	color:#031E35;
+}
+
+.nav ul li a:hover {
+	text-decoration:underline;
+	color:#0D89F0;
+}
+
+/* 
+------------------------------------------------------
+   Site
+------------------------------------------------------
+*/
+
+#container{
+width:1000px;
+margin:0 auto;
+background-color:#303030;
+}
+
+.left-sidebar{
+float:left;
+width:194px;
+height:400px;
+background:url(../images/left_design.jpg) repeat-y;
+padding:30px 15px 0 15px;
+border-right:dotted 1px #454545;
+}
+
+.middle-container{
+width:635px;
+float:right;
+padding:30px 50px 0 0;
+background-color:#303030;
+}
+
+.tagline {
+margin:0px auto;
+font:normal 21px Times New Roman, Times, serif;
+color:#86BCE9;
+padding:15px 0 15px 0;
+}
+
+.callus{
+width:180px;
+margin:0 auto;
+padding-top:10px;
+font:normal 14px Verdana, Arial, Helvetica, sans-serif;
+color:#FF9600;
+}
+
+.text21{
+margin:0px auto;
+font:normal 21px Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+}
+
+.text16{
+margin:0px auto;
+font:normal 16px Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+}
+
+.associates{
+width:180px;
+margin:0 auto;
+font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+padding-top:30px;
+}
+
+.associates h1{
+width:190px;
+border-bottom:solid 1px #fff;
+font:bold 12px Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+margin-bottom:5px;
+}
+.associates ul {
+	float:left;
+	margin-left:15px;
+	padding:0px;
+}
+.associates ul li {
+	font:normal 12px Verdana, Arial, Helvetica, sans-serif;
+	line-height:26px;
+	list-style-type:disc;
+}
+
+.associates ul li a {
+	text-decoration:none;
+	color:#fff;
+}
+
+.associates ul li a:hover {
+	text-decoration:underline;
+	color:#0D89F0;
+}
+
+.social-media{
+width:180px;
+margin:0 auto;
+border:none;
+padding-top:30px;
+}
+
+/* 
+------------------------------------------------------
+   Gallery
+------------------------------------------------------
+*/
+#gallery-container{
+width:774px;
+height:480px;
+position:absolute; 
+top:70px;
+left:357px;
+z-index:1280;
+}
+
+/* 
+------------------------------------------------------
+   Footer
+------------------------------------------------------
+*/
+
+.footer-container{
+width:100%;
+height:80px;
+border-top:solid 1px #3d3d3d;
+background-color:#303030;
+clear: both;
+}
+
+.footer{
+	width:840px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+.footerNav { float:left; padding:0; list-style:none; }
+.footerNav li { float:left; width: auto; margin-left:0px; padding:0 25px 0 25px; border-right: 1px solid #979797;}
+.footerNav li a {padding:0px; color:#979797; font-size:12px; text-decoration:none;}
+.footerNav li a:hover {color:#0D89F0; text-decoration:underline;}
+
+.copyright{
+	font:normal 12px Arial, Helvetica, sans-serif;
+	margin:0px auto;
+	width:380px;
+	color:#979797;
+	padding-top:10px;
+}
